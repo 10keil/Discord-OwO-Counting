@@ -7,7 +7,7 @@ for (file of ['commands', 'events']) {
     require(`./src/handlers/${file}`)(client);
 }
 
-client.login(process.env['TOKEN']); // bot login
+client.login('MTAxMDYyMDM1OTQ4MzA4NDkwMQ.GveLQ1.jPkzoyLfA4B507H8QjBRp-VP3IdI_wZJQ-4KdA'); // bot login
 
 process.on('unhandledRejection', (Error) => {
     console.error('[Unhandled: Promise Rejection]', Error);
